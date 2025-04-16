@@ -1,0 +1,62 @@
+*.freezed.dart
+*.g.dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.DS_Store
+android/key.properties
+
+# Sensitive files
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.cer
+*.env
+*.env.*
+.fvm/flutter_sdk
+
+# IDE related
+.idea/
+.vscode/
+*.iml
+*.iws
+.atom/
+.buildlog/
+.history
+.svn/
+
+# iOS & macOS files
+**/ios/.generated/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/ephemeral
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/*.mode1v3
+**/ios/*.mode2v3
+**/ios/*.moved-aside
+**/ios/*.pbxuser
+**/ios/*.perspectivev3
+**/ios/**/*.perspectivev3
+**/ios/*sync/
+**/ios/**/*sync/
+**/ios/DerivedData/
+**/ios/Pods/
+**/macos/Flutter/ephemeral
+**/macos/Flutter/GeneratedPluginRegistrant.*
+**/macos/Pods/
+
+# Local config files
+lib/config/secrets.dart
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
+# Coverage reports
+coverage/
+*.lcov
+.test_coverage.dart
